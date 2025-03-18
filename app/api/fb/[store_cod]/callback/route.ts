@@ -11,7 +11,7 @@ export async function GET(
 	const code = req.nextUrl.searchParams.get('code')
 
 	const access_token = await fetch(
-		`https://graph.facebook.com/v20.0/oauth/access_token?client_id=1300691744239108&redirect_uri=${process.env.NEXT_PUBLIC_FRONT_URL}/api/fb/${params.store_cod}/callback&client_secret=81cd5d40900f41c842c44e4419da8a54&code=${code}`,
+		`https://graph.facebook.com/v20.0/oauth/access_token?client_id=1300691744239108&redirect_uri=${process.env.NEXT_PUBLIC_FRONT_URL}/api/fb/${params.store_cod}/callback&${code}`,
 		{},
 	)
 		.then(res => res.json())
