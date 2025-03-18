@@ -84,12 +84,12 @@ export function NewWorkspaceSheet({
   return (
     <Sheet open={open} onOpenChange={onOpenChange}>
       <LoadingModal show={isPending} />
-      <SheetOverlay className='flex items-center justify-center bg-kirofy-black bg-opacity-50 backdrop-blur-md' />
+      <SheetOverlay className='flex items-center justify-center bg-k-black bg-opacity-50 backdrop-blur-md' />
       <SheetContent>
         <SheetHeader>
           <SheetTitle>Criar Novo Ambiente</SheetTitle>
           <SheetDescription>
-            Na Kirofy você consegue ter multiplos ambientes para seus diferentes
+            Na k você consegue ter multiplos ambientes para seus diferentes
             negocios, faço o cadastro e na sequecia selecione o plano que melhor
             te atende
           </SheetDescription>

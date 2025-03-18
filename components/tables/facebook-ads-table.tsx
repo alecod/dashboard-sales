@@ -255,23 +255,23 @@ export function FacebookAdsTable() {
         <div className='scrollbar-thin scrollbar-thumb-gray-500 scrollbar-track-gray-200 overflow-x-auto'>
           <div className='min-w-[2465px]'>
             <div className='flex flex-col'>
-              <div className='flex border-b bg-kirofy-white font-medium text-muted-foreground dark:bg-kirofy-greenDark'>
-                <div className='flex w-80 items-center justify-center border-r border-kirofy-white/20 p-4 text-sm'>
+              <div className='flex border-b bg-k-white font-medium text-muted-foreground dark:bg-k-greenDark'>
+                <div className='flex w-80 items-center justify-center border-r border-k-white/20 p-4 text-sm'>
                   Nome da Campanha
                 </div>
-                <div className='flex w-48 items-center justify-center border-r border-kirofy-white/20 text-sm'>
+                <div className='flex w-48 items-center justify-center border-r border-k-white/20 text-sm'>
                   Status da Campanha
                 </div>
-                <div className='flex w-48 items-center justify-center border-r border-kirofy-white/20 text-sm'>
+                <div className='flex w-48 items-center justify-center border-r border-k-white/20 text-sm'>
                   Alcance
                 </div>
-                <div className='flex w-48 items-center justify-center border-r border-kirofy-white/20 text-sm'>
+                <div className='flex w-48 items-center justify-center border-r border-k-white/20 text-sm'>
                   Gasto
                 </div>
-                <div className='flex w-48 items-center justify-center border-r border-kirofy-white/20 text-sm'>
+                <div className='flex w-48 items-center justify-center border-r border-k-white/20 text-sm'>
                   Impressões
                 </div>
-                <div className='flex w-48 items-center justify-center gap-2 border-r border-kirofy-white/20 text-sm'>
+                <div className='flex w-48 items-center justify-center gap-2 border-r border-k-white/20 text-sm'>
                   CPM
                   <HoverCard>
                     <HoverCardTrigger>
@@ -282,7 +282,7 @@ export function FacebookAdsTable() {
                     </HoverCardContent>
                   </HoverCard>
                 </div>
-                <div className='flex w-48 items-center justify-center gap-2 border-r border-kirofy-white/20 text-sm'>
+                <div className='flex w-48 items-center justify-center gap-2 border-r border-k-white/20 text-sm'>
                   ROAS
                   <HoverCard>
                     <HoverCardTrigger>
@@ -293,10 +293,10 @@ export function FacebookAdsTable() {
                     </HoverCardContent>
                   </HoverCard>
                 </div>
-                <div className='flex w-56 items-center justify-center border-r border-kirofy-white/20 text-sm'>
+                <div className='flex w-56 items-center justify-center border-r border-k-white/20 text-sm'>
                   Cliques no Link
                 </div>
-                <div className='flex w-32 items-center justify-center gap-2 border-r border-kirofy-white/20 text-sm'>
+                <div className='flex w-32 items-center justify-center gap-2 border-r border-k-white/20 text-sm'>
                   CTR
                   <HoverCard>
                     <HoverCardTrigger>
@@ -305,7 +305,7 @@ export function FacebookAdsTable() {
                     <HoverCardContent>Taxa de cliques no link</HoverCardContent>
                   </HoverCard>
                 </div>
-                <div className='flex w-32 items-center justify-center gap-2 border-r border-kirofy-white/20 text-sm'>
+                <div className='flex w-32 items-center justify-center gap-2 border-r border-k-white/20 text-sm'>
                   CPA
                   <HoverCard>
                     <HoverCardTrigger>
@@ -314,7 +314,7 @@ export function FacebookAdsTable() {
                     <HoverCardContent>Custo por ação</HoverCardContent>
                   </HoverCard>
                 </div>
-                <div className='flex w-32 items-center justify-center gap-2 border-r border-kirofy-white/20 text-sm'>
+                <div className='flex w-32 items-center justify-center gap-2 border-r border-k-white/20 text-sm'>
                   AC
                   <HoverCard>
                     <HoverCardTrigger>
@@ -323,7 +323,7 @@ export function FacebookAdsTable() {
                     <HoverCardContent>Adicionou ao carrinho</HoverCardContent>
                   </HoverCard>
                 </div>
-                <div className='flex w-32 items-center justify-center gap-2 border-r border-kirofy-white/20 text-sm'>
+                <div className='flex w-32 items-center justify-center gap-2 border-r border-k-white/20 text-sm'>
                   CAC
                   <HoverCard>
                     <HoverCardTrigger>
@@ -334,7 +334,7 @@ export function FacebookAdsTable() {
                     </HoverCardContent>
                   </HoverCard>
                 </div>
-                <div className='flex w-32 items-center justify-center gap-2 border-r border-kirofy-white/20 text-sm'>
+                <div className='flex w-32 items-center justify-center gap-2 border-r border-k-white/20 text-sm'>
                   IDC
                   <HoverCard>
                     <HoverCardTrigger>
@@ -441,7 +441,7 @@ export function FacebookAdsTable() {
                               className='p-0 py-0'
                             >
                               <AccordionTrigger className='bg-[#f8f9faff] p-0 py-0 font-medium dark:bg-[#112c37]'>
-                                <div className='flex h-24 w-80 items-center justify-center border-r border-kirofy-white/20 px-4 text-left'>
+                                <div className='flex h-24 w-80 items-center justify-center border-r border-k-white/20 px-4 text-left'>
                                   <ChevronDown
                                     size={20}
                                     className='relative right-2'
@@ -450,23 +450,23 @@ export function FacebookAdsTable() {
                                     {campaign.name.toLowerCase()}
                                   </span>
                                 </div>
-                                <div className='flex h-24 w-48 items-center justify-center border-r border-kirofy-white/20 px-4'>
+                                <div className='flex h-24 w-48 items-center justify-center border-r border-k-white/20 px-4'>
                                   {'N/A'}
                                 </div>
-                                <div className='flex h-24 w-48 items-center justify-center border-r border-kirofy-white/20 px-4'>
+                                <div className='flex h-24 w-48 items-center justify-center border-r border-k-white/20 px-4'>
                                   {campaign.insights?.reach || 'N/A'}
                                 </div>
-                                <div className='flex h-24 w-48 items-center justify-center border-r border-kirofy-white/20 px-4'>
+                                <div className='flex h-24 w-48 items-center justify-center border-r border-k-white/20 px-4'>
                                   {campaign.insights?.spend
                                     ? `R$ ${Number.parseFloat(
                                         campaign.insights.spend,
                                       ).toFixed(2)}`
                                     : 'N/A'}
                                 </div>
-                                <div className='flex h-24 w-48 items-center justify-center border-r border-kirofy-white/20 px-4'>
+                                <div className='flex h-24 w-48 items-center justify-center border-r border-k-white/20 px-4'>
                                   {campaign.insights?.impressions || 'N/A'}
                                 </div>
-                                <div className='flex h-24 w-48 items-center justify-center border-r border-kirofy-white/20 px-4'>
+                                <div className='flex h-24 w-48 items-center justify-center border-r border-k-white/20 px-4'>
                                   {campaign.insights
                                     ?.cost_per_thousand_impressions
                                     ? `R$ ${Number.parseFloat(
@@ -475,7 +475,7 @@ export function FacebookAdsTable() {
                                       ).toFixed(2)}`
                                     : 'N/A'}
                                 </div>
-                                <div className='flex h-24 w-48 items-center justify-center border-r border-kirofy-white/20 px-4'>
+                                <div className='flex h-24 w-48 items-center justify-center border-r border-k-white/20 px-4'>
                                   {campaign.insights?.purchase_roas?.find(
                                     (val: { action_type: string }) =>
                                       val.action_type === 'omni_purchase',
@@ -488,35 +488,35 @@ export function FacebookAdsTable() {
                                       ).toFixed(2)
                                     : 'N/A'}
                                 </div>
-                                <div className='flex h-24 w-56 items-center justify-center border-r border-kirofy-white/20 px-4'>
+                                <div className='flex h-24 w-56 items-center justify-center border-r border-k-white/20 px-4'>
                                   {campaign.insights?.link_clicks || 'N/A'}
                                 </div>
-                                <div className='flex h-24 w-32 items-center justify-center border-r border-kirofy-white/20 px-4'>
+                                <div className='flex h-24 w-32 items-center justify-center border-r border-k-white/20 px-4'>
                                   {campaign.insights?.click_through_rate
                                     ? `${Number.parseFloat(
                                         campaign.insights.click_through_rate,
                                       ).toFixed(2)}%`
                                     : 'N/A'}
                                 </div>
-                                <div className='flex h-24 w-32 items-center justify-center border-r border-kirofy-white/20 px-4'>
+                                <div className='flex h-24 w-32 items-center justify-center border-r border-k-white/20 px-4'>
                                   {getActionCost(
                                     campaign.insights?.actions ?? null,
                                     'cost_per_action',
                                   )}
                                 </div>
-                                <div className='flex h-24 w-32 items-center justify-center border-r border-kirofy-white/20 px-4'>
+                                <div className='flex h-24 w-32 items-center justify-center border-r border-k-white/20 px-4'>
                                   {getActionValue(
                                     campaign.insights?.actions ?? null,
                                     'add_to_cart',
                                   )}
                                 </div>
-                                <div className='flex h-24 w-32 items-center justify-center border-r border-kirofy-white/20 px-4'>
+                                <div className='flex h-24 w-32 items-center justify-center border-r border-k-white/20 px-4'>
                                   {getActionCost(
                                     campaign.insights?.actions ?? null,
                                     'add_to_cart',
                                   )}
                                 </div>
-                                <div className='flex h-24 w-32 items-center justify-center border-r border-kirofy-white/20 px-4'>
+                                <div className='flex h-24 w-32 items-center justify-center border-r border-k-white/20 px-4'>
                                   {getActionValue(
                                     campaign.insights?.actions ?? null,
                                     'initiate_checkout',
@@ -538,30 +538,30 @@ export function FacebookAdsTable() {
                                   >
                                     <AccordionItem value={adSet.id}>
                                       <AccordionTrigger className='flex flex-row border-none py-0'>
-                                        <div className='flex h-16 w-80 items-center justify-center border-r border-kirofy-white/20 px-4 text-left'>
+                                        <div className='flex h-16 w-80 items-center justify-center border-r border-k-white/20 px-4 text-left'>
                                           <ChevronDown
                                             size={20}
                                             className='relative right-2'
                                           />
                                           <span>{adSet.name}</span>
                                         </div>
-                                        <div className='flex h-16 w-48 items-center justify-center border-r border-kirofy-white/20 px-4'>
+                                        <div className='flex h-16 w-48 items-center justify-center border-r border-k-white/20 px-4'>
                                           {'N/A'}
                                         </div>
-                                        <div className='flex h-16 w-48 items-center justify-center border-r border-kirofy-white/20 px-4'>
+                                        <div className='flex h-16 w-48 items-center justify-center border-r border-k-white/20 px-4'>
                                           {adSet.insights?.reach || 'N/A'}
                                         </div>
-                                        <div className='flex h-16 w-48 items-center justify-center border-r border-kirofy-white/20 px-4'>
+                                        <div className='flex h-16 w-48 items-center justify-center border-r border-k-white/20 px-4'>
                                           {adSet.insights?.spend
                                             ? `R$ ${Number.parseFloat(
                                                 adSet.insights.spend,
                                               ).toFixed(2)}`
                                             : 'N/A'}
                                         </div>
-                                        <div className='flex h-16 w-48 items-center justify-center border-r border-kirofy-white/20 px-4'>
+                                        <div className='flex h-16 w-48 items-center justify-center border-r border-k-white/20 px-4'>
                                           {adSet.insights?.impressions || 'N/A'}
                                         </div>
-                                        <div className='flex h-16 w-48 items-center justify-center border-r border-kirofy-white/20 px-4'>
+                                        <div className='flex h-16 w-48 items-center justify-center border-r border-k-white/20 px-4'>
                                           {adSet.insights
                                             ?.cost_per_thousand_impressions
                                             ? `R$ ${Number.parseFloat(
@@ -570,7 +570,7 @@ export function FacebookAdsTable() {
                                               ).toFixed(2)}`
                                             : 'N/A'}
                                         </div>
-                                        <div className='flex h-16 w-48 items-center justify-center border-r border-kirofy-white/20 px-4'>
+                                        <div className='flex h-16 w-48 items-center justify-center border-r border-k-white/20 px-4'>
                                           {adSet.insights?.purchase_roas?.find(
                                             (val: { action_type: string }) =>
                                               val.action_type ===
@@ -587,10 +587,10 @@ export function FacebookAdsTable() {
                                               ).toFixed(2)
                                             : 'N/A'}
                                         </div>
-                                        <div className='flex h-16 w-56 items-center justify-center border-r border-kirofy-white/20 px-4'>
+                                        <div className='flex h-16 w-56 items-center justify-center border-r border-k-white/20 px-4'>
                                           {adSet.insights?.link_clicks || 'N/A'}
                                         </div>
-                                        <div className='flex h-16 w-32 items-center justify-center border-r border-kirofy-white/20 px-4'>
+                                        <div className='flex h-16 w-32 items-center justify-center border-r border-k-white/20 px-4'>
                                           {adSet.insights?.click_through_rate
                                             ? `${Number.parseFloat(
                                                 adSet.insights
@@ -598,31 +598,31 @@ export function FacebookAdsTable() {
                                               ).toFixed(2)}%`
                                             : 'N/A'}
                                         </div>
-                                        <div className='flex h-16 w-32 items-center justify-center border-r border-kirofy-white/20 px-4'>
+                                        <div className='flex h-16 w-32 items-center justify-center border-r border-k-white/20 px-4'>
                                           {getActionCost(
                                             adSet.insights?.actions ?? null,
                                             'cost_per_action',
                                           )}
                                         </div>
-                                        <div className='flex h-16 w-32 items-center justify-center border-r border-kirofy-white/20 px-4'>
+                                        <div className='flex h-16 w-32 items-center justify-center border-r border-k-white/20 px-4'>
                                           {getActionValue(
                                             adSet.insights?.actions ?? null,
                                             'add_to_cart',
                                           )}
                                         </div>
-                                        <div className='flex h-16 w-32 items-center justify-center border-r border-kirofy-white/20 px-4'>
+                                        <div className='flex h-16 w-32 items-center justify-center border-r border-k-white/20 px-4'>
                                           {getActionCost(
                                             adSet.insights?.actions ?? null,
                                             'add_to_cart',
                                           )}
                                         </div>
-                                        <div className='flex h-16 w-32 items-center justify-center border-r border-kirofy-white/20 px-4'>
+                                        <div className='flex h-16 w-32 items-center justify-center border-r border-k-white/20 px-4'>
                                           {getActionValue(
                                             adSet.insights?.actions ?? null,
                                             'initiate_checkout',
                                           )}
                                         </div>
-                                        <div className='flex h-16 w-32 items-center justify-center border-r border-kirofy-white/20 px-4'>
+                                        <div className='flex h-16 w-32 items-center justify-center border-r border-k-white/20 px-4'>
                                           {getActionCost(
                                             adSet.insights?.actions ?? null,
                                             'initiate_checkout',
@@ -637,27 +637,27 @@ export function FacebookAdsTable() {
                                             key={ad.id}
                                             className='flex items-center'
                                           >
-                                            <div className='flex h-16 w-80 items-center justify-center border-r border-kirofy-white/20 p-4 px-4 text-left'>
+                                            <div className='flex h-16 w-80 items-center justify-center border-r border-k-white/20 p-4 px-4 text-left'>
                                               {ad.name}
                                             </div>
-                                            <div className='flex h-16 w-48 items-center justify-center border-r border-kirofy-white/20 px-4'>
+                                            <div className='flex h-16 w-48 items-center justify-center border-r border-k-white/20 px-4'>
                                               {'N/A'}
                                             </div>
-                                            <div className='itens-center flex h-16 w-48 items-center justify-center border-r border-kirofy-white/20 px-4'>
+                                            <div className='itens-center flex h-16 w-48 items-center justify-center border-r border-k-white/20 px-4'>
                                               {ad.insights?.reach || 'N/A'}
                                             </div>
-                                            <div className='itens-center flex h-16 w-48 items-center justify-center border-r border-kirofy-white/20 px-4'>
+                                            <div className='itens-center flex h-16 w-48 items-center justify-center border-r border-k-white/20 px-4'>
                                               {ad.insights?.spend
                                                 ? `R$ ${Number.parseFloat(
                                                     ad.insights.spend,
                                                   ).toFixed(2)}`
                                                 : 'N/A'}
                                             </div>
-                                            <div className='itens-center flex h-16 w-48 items-center justify-center border-r border-kirofy-white/20 px-4'>
+                                            <div className='itens-center flex h-16 w-48 items-center justify-center border-r border-k-white/20 px-4'>
                                               {ad.insights?.impressions ||
                                                 'N/A'}
                                             </div>
-                                            <div className='itens-center flex h-16 w-48 items-center justify-center border-r border-kirofy-white/20 px-4'>
+                                            <div className='itens-center flex h-16 w-48 items-center justify-center border-r border-k-white/20 px-4'>
                                               {ad.insights
                                                 ?.cost_per_thousand_impressions
                                                 ? `R$ ${Number.parseFloat(
@@ -666,7 +666,7 @@ export function FacebookAdsTable() {
                                                   ).toFixed(2)}`
                                                 : 'N/A'}
                                             </div>
-                                            <div className='itens-center flex h-16 w-48 items-center justify-center border-r border-kirofy-white/20 px-4'>
+                                            <div className='itens-center flex h-16 w-48 items-center justify-center border-r border-k-white/20 px-4'>
                                               {ad.insights?.purchase_roas?.find(
                                                 (val: {
                                                   action_type: string
@@ -685,11 +685,11 @@ export function FacebookAdsTable() {
                                                   ).toFixed(2)
                                                 : 'N/A'}
                                             </div>
-                                            <div className='itens-center flex h-16 w-56 items-center justify-center border-r border-kirofy-white/20 px-4'>
+                                            <div className='itens-center flex h-16 w-56 items-center justify-center border-r border-k-white/20 px-4'>
                                               {ad.insights?.link_clicks ||
                                                 'N/A'}
                                             </div>
-                                            <div className='itens-center flex h-16 w-32 items-center justify-center border-r border-kirofy-white/20 px-4'>
+                                            <div className='itens-center flex h-16 w-32 items-center justify-center border-r border-k-white/20 px-4'>
                                               {ad.insights?.click_through_rate
                                                 ? `${Number.parseFloat(
                                                     ad.insights
@@ -697,31 +697,31 @@ export function FacebookAdsTable() {
                                                   ).toFixed(2)}%`
                                                 : 'N/A'}
                                             </div>
-                                            <div className='itens-center flex h-16 w-32 items-center justify-center border-r border-kirofy-white/20 px-4'>
+                                            <div className='itens-center flex h-16 w-32 items-center justify-center border-r border-k-white/20 px-4'>
                                               {getActionCost(
                                                 ad.insights?.actions ?? null,
                                                 'cost_per_action',
                                               )}
                                             </div>
-                                            <div className='itens-center flex h-16 w-32 items-center justify-center border-r border-kirofy-white/20 px-4'>
+                                            <div className='itens-center flex h-16 w-32 items-center justify-center border-r border-k-white/20 px-4'>
                                               {getActionValue(
                                                 ad.insights?.actions ?? null,
                                                 'add_to_cart',
                                               )}
                                             </div>
-                                            <div className='itens-center flex h-16 w-32 items-center justify-center border-r border-kirofy-white/20 px-4'>
+                                            <div className='itens-center flex h-16 w-32 items-center justify-center border-r border-k-white/20 px-4'>
                                               {getActionCost(
                                                 ad.insights?.actions ?? null,
                                                 'add_to_cart',
                                               )}
                                             </div>
-                                            <div className='itens-center flex h-16 w-32 items-center justify-center border-r border-kirofy-white/20 px-4'>
+                                            <div className='itens-center flex h-16 w-32 items-center justify-center border-r border-k-white/20 px-4'>
                                               {getActionValue(
                                                 ad.insights?.actions ?? null,
                                                 'initiate_checkout',
                                               )}
                                             </div>
-                                            <div className='itens-center flex h-16 w-32 items-center justify-center border-r border-kirofy-white/20 px-4'>
+                                            <div className='itens-center flex h-16 w-32 items-center justify-center border-r border-k-white/20 px-4'>
                                               {getActionCost(
                                                 ad.insights?.actions ?? null,
                                                 'initiate_checkout',

@@ -43,7 +43,7 @@ interface TableDemoProps {
 
 export function TableProducts({ items }: TableDemoProps) {
   return (
-    <Table className='w-full bg-kirofy-greenDark'>
+    <Table className='w-full bg-k-greenDark'>
       <TableHeader>
         <TableRow>
           <TableHead>Produto</TableHead>

@@ -339,7 +339,7 @@ export function SheetFB() {
     <>
       <LoadingModal show={isPendingDefine} />
       <Sheet>
-        <SheetOverlay className='flex items-center justify-center bg-kirofy-black bg-opacity-50 backdrop-blur-md' />
+        <SheetOverlay className='flex items-center justify-center bg-k-black bg-opacity-50 backdrop-blur-md' />
         <SheetTrigger asChild>
           <Button type='button'>
             {!facebookIntegration && 'Integrar'}

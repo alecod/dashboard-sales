@@ -85,7 +85,7 @@ export function ProfitRankingTable({
             <div className='min-w-[1200px]'>
               <div className='flex flex-col'>
                 {/* Cabeçalho da tabela fixo */}
-                <div className='sticky top-0 z-10 flex justify-between border-b bg-kirofy-white font-medium text-muted-foreground dark:bg-kirofy-greenDark'>
+                <div className='sticky top-0 z-10 flex justify-between border-b bg-k-white font-medium text-muted-foreground dark:bg-k-greenDark'>
                   <div className='flex w-64 items-center justify-center border-r p-4 text-sm'>
                     ID do Produto
                   </div>

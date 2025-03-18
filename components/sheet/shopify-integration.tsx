@@ -172,7 +172,7 @@ export function SheetShopify({ open, onOpenChange }: SheetShopifyProps) {
 
   return (
     <Sheet open={open} onOpenChange={onOpenChange}>
-      <SheetOverlay className='flex items-center justify-center bg-kirofy-black bg-opacity-50 backdrop-blur-md' />
+      <SheetOverlay className='flex items-center justify-center bg-k-black bg-opacity-50 backdrop-blur-md' />
       <LoadingModal show={isPending} />
       <SheetContent className='flex h-dvh flex-col overflow-y-auto'>
         <SheetHeader>
@@ -186,7 +186,7 @@ export function SheetShopify({ open, onOpenChange }: SheetShopifyProps) {
           <div className='flex items-center'>
             <div
               className={`flex h-8 w-8 items-center justify-center rounded-full border ${
-                step >= 1 ? 'text-white bg-kirofy-greenDark' : 'bg-gray-300'
+                step >= 1 ? 'text-white bg-k-greenDark' : 'bg-gray-300'
               }`}
             >
               1
@@ -200,7 +200,7 @@ export function SheetShopify({ open, onOpenChange }: SheetShopifyProps) {
             <div
               className={`flex h-8 w-8 items-center justify-center rounded-full border ${
                 step >= 2
-                  ? 'text-white bg-kirofy-greenDark'
+                  ? 'text-white bg-k-greenDark'
                   : 'bg-gray-300 text-gray-500'
               }`}
             >
@@ -265,7 +265,7 @@ export function SheetShopify({ open, onOpenChange }: SheetShopifyProps) {
                 <div className='flex h-full flex-col'>
                   <div>
                     <h2>
-                      A Kirofy faz os cálculos de taxas e impostos para seu
+                      A k faz os cálculos de taxas e impostos para seu
                       negócio.
                     </h2>
                     <p className='mt-3 text-sm'>

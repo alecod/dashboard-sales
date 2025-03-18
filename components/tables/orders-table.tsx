@@ -240,7 +240,7 @@ export function OrdersTable() {
       </div>
 
       <div className="rounded-md border">
-        <Table className="bg-kirofy-greenDark">
+        <Table className="bg-k-greenDark">
           <TableHeader>
             <TableRow>
               <TableHead>ID do Pedido</TableHead>
@@ -254,7 +254,7 @@ export function OrdersTable() {
               <TableHead>Ações</TableHead>
             </TableRow>
           </TableHeader>
-          <TableBody className="bg-kirofy-white dark:bg-kirofy-greenDark">
+          <TableBody className="bg-k-white dark:bg-k-greenDark">
             {isPending ? (
               [...Array(5)].map((_, index) => (
                 <TableRow key={Number(index)}>

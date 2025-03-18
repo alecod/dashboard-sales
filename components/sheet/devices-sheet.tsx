@@ -15,7 +15,7 @@ import { GrFirefox } from 'react-icons/gr'
 export function DevicesSheet() {
   return (
     <Sheet>
-      <SheetOverlay className='flex items-center justify-center bg-kirofy-black bg-opacity-50 backdrop-blur-md' />
+      <SheetOverlay className='flex items-center justify-center bg-k-black bg-opacity-50 backdrop-blur-md' />
       <SheetTrigger asChild>
         <Button variant='link'>Mais informações</Button>
       </SheetTrigger>
@@ -24,7 +24,7 @@ export function DevicesSheet() {
           <SheetTitle>Dispositivos</SheetTitle>
         </SheetHeader>
         <div className='mt-5 flex flex-col'>
-          <div className='flex items-center justify-between border-b border-kirofy-default/10 pb-3'>
+          <div className='flex items-center justify-between border-b border-k-default/10 pb-3'>
             <span className='text-sm text-muted-foreground'>Navegadores</span>
             <div className='flex gap-3'>
               <span className='text-sm text-muted-foreground'>Visitantes</span>

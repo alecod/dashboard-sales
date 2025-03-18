@@ -75,7 +75,7 @@ export function IntegrationDetailsSheet({
   return (
     <Sheet open={open} onOpenChange={onOpenChange}>
       <LoadingModal show={mutation.isPending} />
-      <SheetOverlay className='flex items-center justify-center bg-kirofy-black bg-opacity-50 backdrop-blur-md' />
+      <SheetOverlay className='flex items-center justify-center bg-k-black bg-opacity-50 backdrop-blur-md' />
       <SheetContent>
         <SheetHeader>
           <SheetTitle>Detalhes da Integração</SheetTitle>
@@ -96,11 +96,11 @@ export function IntegrationDetailsSheet({
             </div>
             <div>
               <p className='text-sm'>
-                A integração da Shopify com a Kirofy proporciona aos lojistas
+                A integração da Shopify com a proporciona aos lojistas
                 uma solução completa para o gerenciamento de suas lojas
                 virtuais. Por meio dessa integração, os dados de vendas,
                 pedidos, produtos e clientes da Shopify são automaticamente
-                sincronizados com a Kirofy, permitindo uma análise mais profunda
+                sincronizados com a, permitindo uma análise mais profunda
                 e detalhada do desempenho da loja.
               </p>
             </div>

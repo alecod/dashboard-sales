@@ -90,7 +90,7 @@ export function UtmBuilderSheet({
 
   return (
     <Sheet open={open} onOpenChange={onOpenChange}>
-      <SheetOverlay className='flex items-center justify-center bg-kirofy-black bg-opacity-50 backdrop-blur-md' />
+      <SheetOverlay className='flex items-center justify-center bg-k-black bg-opacity-50 backdrop-blur-md' />
       <SheetContent className='overflow-x-auto'>
         <SheetHeader>
           <SheetTitle>Construtor de URL para campanhas</SheetTitle>
@@ -109,7 +109,7 @@ export function UtmBuilderSheet({
                   <HoverCardTrigger>
                     <GrCircleAlert size={13} />
                   </HoverCardTrigger>
-                  <HoverCardContent className='w-56 rounded-sm bg-kirofy-greenDark p-3 shadow-md'>
+                  <HoverCardContent className='w-56 rounded-sm bg-k-greenDark p-3 shadow-md'>
                     Insira a URL completa do site, incluindo o https://.
                   </HoverCardContent>
                 </HoverCard>
@@ -137,7 +137,7 @@ export function UtmBuilderSheet({
                   <HoverCardTrigger>
                     <GrCircleAlert size={13} />
                   </HoverCardTrigger>
-                  <HoverCardContent className='w-56 rounded-sm bg-kirofy-greenDark p-3 shadow-md'>
+                  <HoverCardContent className='w-56 rounded-sm bg-k-greenDark p-3 shadow-md'>
                     Use utm_id para identificar uma campanha de anúncios
                     específica.
                   </HoverCardContent>
@@ -159,7 +159,7 @@ export function UtmBuilderSheet({
                   <HoverCardTrigger>
                     <GrCircleAlert size={13} />
                   </HoverCardTrigger>
-                  <HoverCardContent className='w-56 rounded-sm bg-kirofy-greenDark p-3 shadow-md'>
+                  <HoverCardContent className='w-56 rounded-sm bg-k-greenDark p-3 shadow-md'>
                     Identifica a origem da campanha, como um mecanismo de busca
                     ou nome de newsletter.
                   </HoverCardContent>
@@ -184,7 +184,7 @@ export function UtmBuilderSheet({
                   <HoverCardTrigger>
                     <GrCircleAlert size={13} />
                   </HoverCardTrigger>
-                  <HoverCardContent className='w-56 rounded-sm bg-kirofy-greenDark p-3 shadow-md'>
+                  <HoverCardContent className='w-56 rounded-sm bg-k-greenDark p-3 shadow-md'>
                     Identifica o meio da campanha, como CPC (custo por clique)
                     ou e-mail.
                   </HoverCardContent>
@@ -209,7 +209,7 @@ export function UtmBuilderSheet({
                   <HoverCardTrigger>
                     <GrCircleAlert size={13} />
                   </HoverCardTrigger>
-                  <HoverCardContent className='w-56 rounded-sm bg-kirofy-greenDark p-3 shadow-md'>
+                  <HoverCardContent className='w-56 rounded-sm bg-k-greenDark p-3 shadow-md'>
                     Use utm_campaign para identificar uma promoção ou campanha
                     específica.
                   </HoverCardContent>
@@ -240,7 +240,7 @@ export function UtmBuilderSheet({
                   <HoverCardTrigger>
                     <GrCircleAlert size={13} />
                   </HoverCardTrigger>
-                  <HoverCardContent className='w-56 rounded-sm bg-kirofy-greenDark p-3 shadow-md'>
+                  <HoverCardContent className='w-56 rounded-sm bg-k-greenDark p-3 shadow-md'>
                     Usado para pesquisa paga. Especifica as palavras-chave.
                   </HoverCardContent>
                 </HoverCard>
@@ -265,7 +265,7 @@ export function UtmBuilderSheet({
                   <HoverCardTrigger>
                     <GrCircleAlert size={13} />
                   </HoverCardTrigger>
-                  <HoverCardContent className='w-56 rounded-sm bg-kirofy-greenDark p-3 shadow-md'>
+                  <HoverCardContent className='w-56 rounded-sm bg-k-greenDark p-3 shadow-md'>
                     Diferencia anúncios ou links que apontam para a mesma URL.
                   </HoverCardContent>
                 </HoverCard>

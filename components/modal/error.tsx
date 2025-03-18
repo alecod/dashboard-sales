@@ -19,7 +19,7 @@ export function ErrorModal({
 }: ErrorModalProps) {
   return (
     <Dialog open={open} onOpenChange={onOpenChange}>
-      <DialogOverlay className='bg-kirofy-black bg-opacity-50 backdrop-blur-md'>
+      <DialogOverlay className='bg-k-black bg-opacity-50 backdrop-blur-md'>
         <DialogContent className='max-w-[425px]'>
           <div className='rounded p-6'>
             <div className='flex items-center justify-center gap-4'>

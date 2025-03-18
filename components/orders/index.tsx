@@ -75,7 +75,7 @@ export function OrderDetails({ orderId }: OrderDetailsProps) {
   return (
     <div className=''>
       <div className='mt-5'>
-        <div className='h-[1px] w-full bg-kirofy-default/50' />
+        <div className='h-[1px] w-full bg-k-default/50' />
         <div className='flex h-16 items-center justify-start gap-7'>
           <div className='flex items-center gap-2'>
             <NotepadText fill='' size={20} />
@@ -96,7 +96,7 @@ export function OrderDetails({ orderId }: OrderDetailsProps) {
             <span>R$ {order?.total} (Produto + Frete)</span>
           </div>
         </div>
-        <div className='h-[1px] w-full bg-kirofy-default/50' />
+        <div className='h-[1px] w-full bg-k-default/50' />
       </div>
       <div className='mt-10 flex gap-5'>
         <TableProducts items={order?.items} />
