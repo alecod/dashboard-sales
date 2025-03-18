@@ -58,7 +58,7 @@ export default function WelcomePage() {
 
               <div className='flex items-center'>
                 <div>
-                  <h3 className='text-xl font-semibold'>Kirofy Tracking</h3>
+                  <h3 className='text-xl font-semibold'>Tracking</h3>
                   <p className='mt-1 text-sm text-muted-foreground'>
                     Monitore os dados analiticos de seu ecoomerce: Navegadores,
                     Metricas de visualizações, Principais paginas,

@@ -130,10 +130,10 @@ export function PaymentCard() {
       </div>
 
       <Dialog open={openModal} onOpenChange={setOpenModal}>
-        <DialogOverlay className='bottom-10 h-full bg-kirofy-black bg-opacity-50 backdrop-blur-md' />
+        <DialogOverlay className='bottom-10 h-full bg-k-black bg-opacity-50 backdrop-blur-md' />
         <DialogContent className='h-[650px] overflow-y-auto'>
           <DialogHeader>
-            <DialogTitle>Checkout - Assinatura Kirofy</DialogTitle>
+            <DialogTitle>Checkout - Assinatura k</DialogTitle>
           </DialogHeader>
           {priceId && <Checkout priceID={priceId} />}
         </DialogContent>

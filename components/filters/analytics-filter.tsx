@@ -5,7 +5,6 @@ import { useEcommerceIntegrationHook } from '@/hooks/ecommerce-integration-hook'
 import usePlausibleHook from '@/hooks/plausible-hook'
 import { useShopifyIntegrationHook } from '@/hooks/shopify-integration-hook'
 import { useStoreHook } from '@/hooks/store-hook'
-import LogoKirofy from '@/public/images/logo-icone-light.png'
 import { useQuery } from '@tanstack/react-query'
 import Image from 'next/image'
 import { useEffect, useState } from 'react'
@@ -104,8 +103,8 @@ export function FilterAnalytics() {
     <div className='mt-5 md:flex md:justify-between'>
       <div className='flex items-center gap-3 sm:w-full sm:justify-between md:justify-normal lg:w-auto'>
         <div className='flex items-end gap-3'>
-          <Image src={LogoKirofy} alt='Logo Kirofy' width={25} />
-          <span>Kirofy Tracking</span>
+         
+          <span> Tracking</span>
         </div>
         <div className='ml-5 mt-1 flex items-center gap-2'>
           <div className='h-3 w-3 animate-pulse rounded-full bg-green-1' />

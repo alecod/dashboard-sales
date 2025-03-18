@@ -306,7 +306,7 @@ export function ProductCoastCard({
                   <span className='text-muted-foreground'>Em breve</span>
                 </div>
                 {/* {alertMessage && (
-                  <div className='mt-3 flex flex-col rounded-md border border-kirofy-default/60 bg-kirofy-black pb-2 pl-3'>
+                  <div className='mt-3 flex flex-col rounded-md border border-k-default/60 bg-k-black pb-2 pl-3'>
                     <div className='relative flex h-1 w-full justify-end'>
                       <Button
                         variant='ghost'
@@ -317,7 +317,7 @@ export function ProductCoastCard({
                       </Button>
                     </div>
 
-                    <span className='pt-1 font-bold text-kirofy-default'>
+                    <span className='pt-1 font-bold text-k-default'>
                       Alerta:
                     </span>
                     <span className='text-[13px]'>

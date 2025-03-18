@@ -7,11 +7,11 @@ export function PaymentCard() {
         <CardTitle>Minha Assinatura</CardTitle>
       </CardHeader>
       <CardContent className='flex'>
-        <div className='flex w-60 flex-col border-r border-x-kirofy-white'>
+        <div className='flex w-60 flex-col border-r border-x-k-white'>
           <div>
             <p className='text-sm'>
               <span className='font-bold text-muted-foreground'>Plano: </span>
-              Advanced - Kirofy
+              Advanced - k
             </p>
           </div>
           <div className='mt-1'>
@@ -45,7 +45,7 @@ export function PaymentCard() {
             <p className='text-sm'>- Integração com Facebook Ads</p>
             <p className='text-sm'>- Facebook Pixel</p>
             <p className='text-sm'>- Gerenciamento de taxas e impostos</p>
-            <p className='text-sm'>- Kirofy Tracking</p>
+            <p className='text-sm'>- k Tracking</p>
           </div>
         </div>
       </CardContent>

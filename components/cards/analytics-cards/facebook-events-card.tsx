@@ -49,7 +49,7 @@ export const FacebookEvents = () => {
     value: number | undefined,
     description: string,
   ) => (
-    <div className='flex items-center justify-between border-b border-kirofy-white/40 pb-1'>
+    <div className='flex items-center justify-between border-b border-k-white/40 pb-1'>
       <div className='flex items-center'>
         <div className='flex items-center gap-2'>
           {icon}
@@ -59,7 +59,7 @@ export const FacebookEvents = () => {
           <HoverCardTrigger>
             <GrCircleAlert size={13} className='relative left-2' />
           </HoverCardTrigger>
-          <HoverCardContent className='z-50 w-96 space-x-0 rounded-lg bg-kirofy-black p-4'>
+          <HoverCardContent className='z-50 w-96 space-x-0 rounded-lg bg-k-black p-4'>
             {description}
           </HoverCardContent>
         </HoverCard>

@@ -42,14 +42,14 @@ export function TotalRevenueCard() {
               <GrCircleAlert size={15} />
             </div>
           </div>
-          <hr className='h-[0.125rem] w-full bg-kirofy-default' />
+          <hr className='h-[0.125rem] w-full bg-k-default' />
         </div>
       </CardHeader>
       <CardContent className='flex w-full flex-row flex-wrap items-center justify-between'>
         <div className='flex flex-col'>
           <p>Faturamento Total (R$)</p>
           <div className='flex items-center gap-2 text-2xl'>
-            <span className='text-[20px] font-bold text-kirofy-default'>
+            <span className='text-[20px] font-bold text-k-default'>
               {new Intl.NumberFormat('pt-BR', {
                 style: 'currency',
                 currency: 'BRL',
@@ -63,7 +63,7 @@ export function TotalRevenueCard() {
             <Bar dataKey='sale' fill={stat.fill} radius={1} />
           </BarChart>
         </ResponsiveContainer>
-        <hr className='mt-6 h-[0.125rem] w-full bg-kirofy-default' />
+        <hr className='mt-6 h-[0.125rem] w-full bg-k-default' />
       </CardContent>
       <CardFooter className='flex flex-col'>
         <div className='flex w-full items-center justify-between'>

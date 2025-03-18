@@ -96,7 +96,7 @@ export function UserMenu() {
               <DropdownMenuItem>Meu perfil</DropdownMenuItem>
             </Link>
             <Link href={routes.checkout}>
-              <DropdownMenuItem>Assinar Kirofy</DropdownMenuItem>
+              <DropdownMenuItem>Assinar</DropdownMenuItem>
             </Link>
           </DropdownMenuGroup>
           <DropdownMenuGroup>

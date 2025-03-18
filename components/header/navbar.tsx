@@ -22,7 +22,7 @@ export function Navbar() {
               <span className='text-base'>
                 {' '}
                 {getGreeting()},{' '}
-                <span className='font-bold text-kirofy-default'>
+                <span className='font-bold text-k-default'>
                   {formatName(user?.name)}
                 </span>
                 {' | '}

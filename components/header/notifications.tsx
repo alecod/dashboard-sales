@@ -23,7 +23,7 @@ export function Notifications() {
             markAsRead: 'Marcar como lido',
             markAsUnRead: 'Marcar como não lido',
             noNewNotification: 'Sem novas notificações',
-            poweredBy: 'Kirofy',
+            poweredBy: 'k',
           },
         }}
         backendUrl={NOVU_BACKEND_URL}
