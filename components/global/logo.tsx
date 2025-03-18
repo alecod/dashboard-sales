@@ -1,6 +1,4 @@
 'use client'
-import LogoDark from '@/public/images/logo-dark.png'
-import LogoLight from '@/public/images/logo-light.png'
 import { useTheme } from 'next-themes'
 import Image from 'next/image'
 import { useEffect, useState } from 'react'

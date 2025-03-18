@@ -1,5 +1,4 @@
 'use client'
-import LogoLight from '@/public/images/logo-light.png'
 import { routes } from '@/routes/routes'
 import Image from 'next/image'
 import Link from 'next/link'

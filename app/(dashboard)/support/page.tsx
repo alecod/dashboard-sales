@@ -7,7 +7,6 @@ import { Input } from '@/components/ui/input'
 import { Label } from '@/components/ui/label'
 import { Textarea } from '@/components/ui/textarea'
 
-import Bg from '@/public/images/logo-icone-light.png'
 import Image from 'next/image'
 import { type SetStateAction, useState } from 'react'
 import { FaWhatsapp } from 'react-icons/fa'
@@ -91,11 +90,7 @@ export default function Chat() {
 
         {change === 'chat' ? (
           <div className='w-full'>
-            <Image
-              src={Bg}
-              alt='Background'
-              className='absolute left-[520px] top-24 -z-0 w-96 opacity-10'
-            />
+    
             <Card className='m-10 flex min-h-[75vh] w-full max-w-[1000px] flex-col'>
               {/* Chat Messages */}
               <div className='mb-5 flex h-[500px] flex-col space-y-4 overflow-y-auto p-5'>

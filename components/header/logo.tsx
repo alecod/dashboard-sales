@@ -1,5 +1,4 @@
 'use client'
-import LogoLight from '@/public/images/logo-light.png'
 import Image from 'next/image'
 
 export function Logo() {

@@ -1,4 +1,4 @@
-import Banner from '@/public/images/kf-logos.png'
+
 import Image from 'next/image'
 import type { ReactNode } from 'react'
 
