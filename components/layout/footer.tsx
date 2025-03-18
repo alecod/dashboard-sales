@@ -8,24 +8,7 @@ export function Footer() {
         
         </p>
         <div className="flex items-center gap-2 justify-center mb-3">
-          <Link
-            href="/about/terms-and-conditions"
-            className="text-xs text-muted-foreground underline text-center"
-          >
-            Termos e Condições
-          </Link>
-          <Link
-            href="/about/privacy-policy"
-            className="text-xs text-muted-foreground underline text-center"
-          >
-            Politica de Privacidade
-          </Link>
-          <Link
-            href="/about/cookies-policy"
-            className="text-xs text-muted-foreground underline text-center"
-          >
-            Politica de Cookies
-          </Link>
+       
         </div>
       </div>
     </footer>
