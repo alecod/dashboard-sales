@@ -1,0 +1,20 @@
+export const routes = {
+  auth: {
+    signin: '/login',
+    signup: '/signup',
+    forgot: '/forgot',
+  },
+  dashboard: '/',
+  channels: '/channels',
+  facebookads: '/channels/facebook-ads',
+  facebookPixel: '/channels/meta-pixel',
+  orders: '/orders',
+  profitRanking: '/ranking-products',
+  checkout: '/checkout',
+  welcome: '/welcome',
+  integrations: '/integration',
+  coast: '/fees-management',
+  analytics: '/analytics',
+  accountSettings: '/account-settings',
+  support: '/support',
+}

@@ -1,0 +1,300 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*::-webkit-scrollbar {
+  height: 8px;
+  width: 8px;
+}
+*::-webkit-scrollbar-track {
+  border-radius: 2px;
+  background-color: #232424;
+}
+
+*::-webkit-scrollbar-track:active {
+  background-color: #232424;
+}
+
+*::-webkit-scrollbar-thumb {
+  border-radius: 2px;
+  background-color: #063841;
+}
+
+*::-webkit-scrollbar-thumb:active {
+  background-color: #063841;
+}
+
+
+
+/* #061216 */
+/* #0b1e25 */
+/* #19dbfe */
+/* #f3f3f3 */
+
+
+
+/* mt-5 | mb-5 | ml-5 | mr-5 - para espaçar entre componentes */
+/* gap-3  - para espaçar entre elemntos dentro da mesma div flex */
+
+/* Paleta de Cores para 
+
+Light Mode
+Cores Primárias
+Background Principal:
+Hex: #f3f3f3
+HSL: hsl(0, 0%, 95%)
+Texto Principal:
+Hex: #061216
+HSL: hsl(195, 60%, 6.5%)
+Elementos Interativos:
+Hex: #19dbfe
+HSL: hsl(189, 98%, 56%)
+Hover:
+Hex: #0bc3e0
+HSL: hsl(188, 91%, 47%)
+Active:
+Hex: #08a4b8
+HSL: hsl(188, 88%, 38%)
+Focus:
+Hex: #5befff
+HSL: hsl(187, 100%, 66%)
+Estados de Mensagem
+Sucesso:
+
+Normal:
+Hex: #28a745
+HSL: hsl(134, 61%, 39%)
+Hover:
+Hex: #218838
+HSL: hsl(134, 66%, 34%)
+Active:
+Hex: #1e7e34
+HSL: hsl(134, 61%, 31%)
+Focus:
+Hex: #70c08b
+HSL: hsl(134, 47%, 60%)
+Erro:
+
+Normal:
+Hex: #dc3545
+HSL: hsl(354, 70%, 53%)
+Hover:
+Hex: #c82333
+HSL: hsl(355, 70%, 46%)
+Active:
+Hex: #bd2130
+HSL: hsl(355, 71%, 43%)
+Focus:
+Hex: #e57373
+HSL: hsl(0, 67%, 69%)
+Alerta:
+
+Normal:
+Hex: #ffc107
+HSL: hsl(45, 100%, 50%)
+Hover:
+Hex: #e0a800
+HSL: hsl(45, 100%, 44%)
+Active:
+Hex: #c69500
+HSL: hsl(45, 100%, 39%)
+Focus:
+Hex: #ffeb3b
+HSL: hsl(55, 100%, 60%)
+Cores Secundárias
+Background Secundário:
+Hex: #0b1e25
+HSL: hsl(196, 53%, 10%)
+Hover:
+Hex: #092019
+HSL: hsl(158, 54%, 7%)
+Active:
+Hex: #081a15
+HSL: hsl(160, 43%, 6%)
+Focus:
+Hex: #12657a
+HSL: hsl(188, 73%, 27%)
+Dark Mode
+Cores Primárias
+Background Principal:
+Hex: #061216
+HSL: hsl(195, 60%, 6.5%)
+Texto Principal:
+Hex: #f3f3f3
+HSL: hsl(0, 0%, 95%)
+Elementos Interativos:
+Hex: #19dbfe
+HSL: hsl(189, 98%, 56%)
+Hover:
+Hex: #0bc3e0
+HSL: hsl(188, 91%, 47%)
+Active:
+Hex: #08a4b8
+HSL: hsl(188, 88%, 38%)
+Focus:
+Hex: #5befff
+HSL: hsl(187, 100%, 66%)
+Estados de Mensagem
+Sucesso:
+
+Normal:
+Hex: #28a745
+HSL: hsl(134, 61%, 39%)
+Hover:
+Hex: #218838
+HSL: hsl(134, 66%, 34%)
+Active:
+Hex: #1e7e34
+HSL: hsl(134, 61%, 31%)
+Focus:
+Hex: #70c08b
+HSL: hsl(134, 47%, 60%)
+Erro:
+
+Normal:
+Hex: #dc3545
+HSL: hsl(354, 70%, 53%)
+Hover:
+Hex: #c82333
+HSL: hsl(355, 70%, 46%)
+Active:
+Hex: #bd2130
+HSL: hsl(355, 71%, 43%)
+Focus:
+Hex: #e57373
+HSL: hsl(0, 67%, 69%)
+Alerta:
+
+Normal:
+Hex: #ffc107
+HSL: hsl(45, 100%, 50%)
+Hover:
+Hex: #e0a800
+HSL: hsl(45, 100%, 44%)
+Active:
+Hex: #c69500
+HSL: hsl(45, 100%, 39%)
+Focus:
+Hex: #ffeb3b
+HSL: hsl(55, 100%, 60%)
+Cores Secundárias
+Background Secundário:
+Hex: #0b1e25
+HSL: hsl(196, 53%, 10%)
+Hover:
+Hex: #092019
+HSL: hsl(158, 54%, 7%)
+Active:
+Hex: #081a15
+HSL: hsl(160, 43%, 6%)
+Focus:
+Hex: #12657a
+HSL: hsl(188, 73%, 27%)
+ */
+
+@layer base {
+  :root {
+    --background: 0 0% 98%; /* #f3f3f3 */
+    --foreground: 195 60% 6.5%; /* #061216 */
+    --card: 0 0% 95%; /* #f3f3f3 */
+    --card-foreground: 195 60% 6.5%; /* #061216 */
+    --popover: 0 0% 95%; /* #f3f3f3 */
+    --popover-foreground: 195 60% 6.5%; /* #061216 */
+    --primary: 196 53% 10%; /* #0b1e25 */
+    --primary-foreground: 0 0% 95%; /* #f3f3f3 */
+    --secondary: 196 53% 10%; /* #0b1e25 */
+    --secondary-foreground: 0 0% 95%; /* #f3f3f3 */
+    --muted: 210 40% 96.1%; /* #e9e9e9 */
+    --muted-foreground: 215.4 16.3% 46.9%; /* #767676 */
+    --accent: 210 40% 96.1%; /* #e9e9e9 */
+    --accent-foreground: 222.2 47.4% 11.2%; /* #0e2233 */
+    --destructive: 354 70% 53%; /*#dc3545*/
+    --destructive-foreground: 0 0% 95%; /* #f3f3f3 */
+    --border: 214.3 31.8% 91.4%; /* #d3d3d3 */
+    --input: 214.3 31.8% 91.4%; /* #d3d3d3 */
+    --ring: 222.2 84% 4.9%; /* #061216 */
+    --radius: 0.5rem;
+    --chart-1: 173 58% 39%;
+    --chart-2: 12 76% 61%;
+    --chart-3: 197 37% 24%;
+    --chart-4: 43 74% 66%;
+    --chart-5: 27 87% 67%;
+  }
+
+  .dark {
+    --background: 195 57% 5%; /* #061216 */
+    --foreground: 0 0% 95%; /* #f3f3f3 */
+    --card: 196 53% 10%; /* #0b1e25 */
+    --card-foreground: 0 0% 95%; /* #f3f3f3 */
+    --popover: 196 54% 9%; /* #0b1e25 */
+    --popover-foreground: 210 40% 98%; /* #f3f3f3 */
+    --primary: 0 0% 95%; /* #f3f3f3 */
+    --primary-foreground: 196 54% 9%; /* #0b1e25 */
+    --secondary: 195 57% 5%; /* #061216 */
+    --secondary-foreground: 0 0% 95%; /* #f3f3f3 */
+    --muted: 217.2 32.6% 17.5%; /* #1b3547 */
+    --muted-foreground: 215 20.2% 65.1%; /* #9fa3a6 */
+    --accent: 217.2 32.6% 17.5%; /* #1b3547 */
+    --accent-foreground: 0 0% 95%; /* #f3f3f3 */
+    --destructive: 354 70% 53%; /*#dc3545*/
+    --destructive-foreground: 0 0% 95%; /* #f3f3f3 */
+    --border: 217.2 32.6% 17.5%; /* #1b3547 */
+    --input: 217.2 32.6% 17.5%; /* #1b3547 */
+    --ring: 212.7 26.8% 83.9%; /* #d3d3d3 */
+    --chart-1: 220 70% 50%;
+    --chart-5: 160 60% 45%;
+    --chart-3: 30 80% 55%;
+    --chart-4: 280 65% 60%;
+    --chart-2: 340 75% 55%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+@media (min-width: 768px) {
+  .sidebar:hover {
+    width: 256px;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\\:flex {
+    display: flex !important;
+  }
+  .md\\:hidden {
+    display: none !important;
+  }
+}
+
+.nc-footer {
+  display: none !important;
+}
+
+.css-0:checked ~ label {
+  background: linear-gradient(0deg, #08a4b899 0%, #19dbfe 100%) !important;
+}
+
+.nc-notifications-list-item {
+  background: #112b35 !important;
+}
+
+.css-1x5fqmk:before {
+  background: linear-gradient(0deg, #08a4b899 0%, #19dbfe 100%) !important;
+}
+
+.mantine-1g5kzgj[data-active] .__mantine-ref-tabLabel::after {
+  background: linear-gradient(0deg, #08a4b899 0%, #19dbfe 100%) !important;
+}
+
+.mantine-Accordion-item {
+  background: #112b35 !important;
+}
+
+/* Ajuste de css mobile para o novu */

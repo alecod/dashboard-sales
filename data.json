@@ -1,0 +1,264 @@
+{
+  "schema": {
+    "type": "array",
+    "items": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "store_cod": {
+          "type": "number"
+        },
+        "name": {
+          "type": "string"
+        },
+        "currency": {
+          "type": "string"
+        },
+        "created_at": {
+          "type": "string"
+        },
+        "searched_at": {
+          "type": "string"
+        },
+        "business_id": {
+          "type": "string",
+          "nullable": true
+        },
+        "business_name": {
+          "type": "string",
+          "nullable": true
+        },
+        "campaigns": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              },
+              "insights": {
+                "type": "object",
+                "properties": {
+                  "reach": {
+                    "type": "string",
+                    "nullable": true
+                  },
+                  "spend": {
+                    "type": "string",
+                    "nullable": true
+                  },
+                  "impressions": {
+                    "type": "string",
+                    "nullable": true
+                  },
+                  "purchase_roas": {
+                    "type": "string",
+                    "nullable": true
+                  },
+                  "cost_per_thousand_impressions": {
+                    "type": "string",
+                    "nullable": true
+                  },
+                  "click_through_rate": {
+                    "type": "string",
+                    "nullable": true
+                  },
+                  "link_clicks": {
+                    "type": "string",
+                    "nullable": true
+                  },
+                  "actions": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "type": {
+                          "type": "string"
+                        },
+                        "value": {
+                          "type": "string"
+                        },
+                        "cost": {
+                          "type": "string",
+                          "nullable": true
+                        }
+                      },
+                      "required": ["type", "value"],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "additionalProperties": false,
+                "nullable": true
+              },
+              "sets": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "insights": {
+                      "type": "object",
+                      "properties": {
+                        "reach": {
+                          "type": "string",
+                          "nullable": true
+                        },
+                        "spend": {
+                          "type": "string",
+                          "nullable": true
+                        },
+                        "impressions": {
+                          "type": "string",
+                          "nullable": true
+                        },
+                        "purchase_roas": {
+                          "type": "string",
+                          "nullable": true
+                        },
+                        "cost_per_thousand_impressions": {
+                          "type": "string",
+                          "nullable": true
+                        },
+                        "click_through_rate": {
+                          "type": "string",
+                          "nullable": true
+                        },
+                        "link_clicks": {
+                          "type": "string",
+                          "nullable": true
+                        },
+                        "actions": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "properties": {
+                              "type": {
+                                "type": "string"
+                              },
+                              "value": {
+                                "type": "string"
+                              },
+                              "cost": {
+                                "type": "string",
+                                "nullable": true
+                              }
+                            },
+                            "required": ["type", "value"],
+                            "additionalProperties": false
+                          }
+                        }
+                      },
+                      "additionalProperties": false,
+                      "nullable": true
+                    },
+                    "ads": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "id": {
+                            "type": "string"
+                          },
+                          "name": {
+                            "type": "string"
+                          },
+                          "insights": {
+                            "type": "object",
+                            "properties": {
+                              "reach": {
+                                "type": "string",
+                                "nullable": true
+                              },
+                              "spend": {
+                                "type": "string",
+                                "nullable": true
+                              },
+                              "impressions": {
+                                "type": "string",
+                                "nullable": true
+                              },
+                              "purchase_roas": {
+                                "type": "string",
+                                "nullable": true
+                              },
+                              "cost_per_thousand_impressions": {
+                                "type": "string",
+                                "nullable": true
+                              },
+                              "click_through_rate": {
+                                "type": "string",
+                                "nullable": true
+                              },
+                              "link_clicks": {
+                                "type": "string",
+                                "nullable": true
+                              },
+                              "actions": {
+                                "type": "array",
+                                "items": {
+                                  "type": "object",
+                                  "properties": {
+                                    "type": {
+                                      "type": "string"
+                                    },
+                                    "value": {
+                                      "type": "string"
+                                    },
+                                    "cost": {
+                                      "type": "string",
+                                      "nullable": true
+                                    }
+                                  },
+                                  "required": ["type", "value"],
+                                  "additionalProperties": false
+                                }
+                              }
+                            },
+                            "additionalProperties": false
+                          }
+                        },
+                        "required": ["id", "name"],
+                        "additionalProperties": false
+                      },
+                      "nullable": true
+                    }
+                  },
+                  "required": ["id", "name"],
+                  "additionalProperties": false
+                },
+                "nullable": true
+              }
+            },
+            "required": ["id", "name"],
+            "additionalProperties": false
+          },
+          "nullable": true
+        },
+        "status": {
+          "type": "string",
+          "nullable": true
+        }
+      },
+      "required": [
+        "id",
+        "store_cod",
+        "name",
+        "currency",
+        "created_at",
+        "searched_at"
+      ],
+      "additionalProperties": false
+    }
+  }
+}
