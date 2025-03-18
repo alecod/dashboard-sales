@@ -60,7 +60,7 @@ export default function Chat() {
     <ContentLayout>
       <BreadcrumbSupport />
       <div className='relative flex w-full md:pt-0'>
-        <nav className='mt-10 h-36 w-48 space-y-4 border-r border-kirofy-default/50'>
+        <nav className='mt-10 h-36 w-48 space-y-4 border-r border-k-default/50'>
           <div className='flex items-center space-x-2'>
             <button
               className='flex w-full items-center gap-2'
@@ -68,7 +68,7 @@ export default function Chat() {
               type='button'
             >
               <IoChatboxEllipsesOutline />
-              <span>Kirofy IA</span>
+              <span>k IA</span>
             </button>
           </div>
           <div className='flex items-center space-x-2'>
@@ -111,8 +111,8 @@ export default function Chat() {
                     <div
                       className={`rounded-lg p-3 ${
                         message.sender === 'gpt'
-                          ? 'text-black bg-kirofy-black'
-                          : 'text-white bg-kirofy-black'
+                          ? 'text-black bg-k-black'
+                          : 'text-white bg-k-black'
                       }`}
                     >
                       {message.text}

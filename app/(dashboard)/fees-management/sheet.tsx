@@ -145,12 +145,12 @@ export default function SheetTaxes({ open, onOpenChange }: ModalCoastProps) {
   return (
     <Sheet open={open} onOpenChange={onOpenChange}>
       <LoadingModal show={isPending} />
-      <SheetOverlay className='flex items-center justify-center bg-kirofy-black bg-opacity-50 backdrop-blur-md'>
+      <SheetOverlay className='flex items-center justify-center bg-k-black bg-opacity-50 backdrop-blur-md'>
         <SheetContent className='overflow-y-auto'>
           <SheetHeader>
             <SheetTitle>Cadastrar Taxa ou Imposto</SheetTitle>
             <SheetDescription>
-              A Kirofy faz o cálculo das taxas e impostos para seu negócio. Você
+              A k faz o cálculo das taxas e impostos para seu negócio. Você
               pode cadastrar suas taxas e impostos por período(anterior ou
               futuras) e para datas atuais.
             </SheetDescription>

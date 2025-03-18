@@ -245,7 +245,7 @@ export function CoastManagementTable() {
           <div className='scrollbar-thin scrollbar-thumb-gray-500 scrollbar-track-gray-200 overflow-x-auto'>
             <div className='min-w-[1500px]'>
               <div className='flex flex-col'>
-                <div className='flex border-b bg-kirofy-white font-medium text-muted-foreground dark:bg-kirofy-greenDark'>
+                <div className='flex border-b bg-k-white font-medium text-muted-foreground dark:bg-k-greenDark'>
                   <div className='flex w-80 items-center justify-center border-r p-4 text-sm'>
                     Nome da Taxa ou Imposto
                   </div>
@@ -318,7 +318,7 @@ export function CoastManagementTable() {
                     </Button>
                   </div>
                 ) : (
-                  <div className='flex items-center justify-start bg-kirofy-greenDark'>
+                  <div className='flex items-center justify-start bg-k-greenDark'>
                     <div>
                       {data &&
                         data.length > 0 &&
@@ -329,7 +329,7 @@ export function CoastManagementTable() {
                                 {editIndex === index ? (
                                   <FormProvider {...methods}>
                                     <form
-                                      className='flex h-16 w-full items-center border-b border-kirofy-default/10 text-center'
+                                      className='flex h-16 w-full items-center border-b border-k-default/10 text-center'
                                       onSubmit={handleSubmit(
                                         async (data) =>
                                           await updateFee({
@@ -559,7 +559,7 @@ export function CoastManagementTable() {
                                               >
                                                 <Calendar
                                                   mode='single'
-                                                  className='bg-kirofy-greenDark shadow-md'
+                                                  className='bg-k-greenDark shadow-md'
                                                   locale={ptBR}
                                                   selected={
                                                     field.value
@@ -617,7 +617,7 @@ export function CoastManagementTable() {
                                                 <Calendar
                                                   mode='single'
                                                   locale={ptBR}
-                                                  className='bg-kirofy-greenDark shadow-md'
+                                                  className='bg-k-greenDark shadow-md'
                                                   selected={
                                                     field.value
                                                       ? new Date(field.value)
@@ -658,7 +658,7 @@ export function CoastManagementTable() {
                                     </form>
                                   </FormProvider>
                                 ) : (
-                                  <div className='flex h-16 w-full items-center border-b border-kirofy-default/10 text-center'>
+                                  <div className='flex h-16 w-full items-center border-b border-k-default/10 text-center'>
                                     <div className='flex w-80 justify-center text-sm'>
                                       {taxData.name.toLowerCase()}
                                     </div>
@@ -735,7 +735,7 @@ export function CoastManagementTable() {
 
       {/* Delete Confirmation Dialog */}
       <Dialog open={openDialog} onOpenChange={setOpenDialog}>
-        <DialogOverlay className='bottom-10 h-full bg-kirofy-black bg-opacity-50 backdrop-blur-md' />
+        <DialogOverlay className='bottom-10 h-full bg-k-black bg-opacity-50 backdrop-blur-md' />
         <DialogContent>
           <DialogHeader>
             <DialogTitle>Deseja excluir essa taxa permanentemente?</DialogTitle>

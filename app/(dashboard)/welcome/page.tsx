@@ -9,7 +9,7 @@ export default function WelcomePage() {
         <div className='flex flex-col items-center text-center'>
           <LogoGlobal />
           <h1 className='mt-5 text-4xl font-bold'>
-            Seja bem-vindo(a) à Kirofy
+            Seja bem-vindo(a) à Dashboard
           </h1>
           <p className='mt-5 text-lg'>Para continuar cadastre seu ambiente</p>
         </div>

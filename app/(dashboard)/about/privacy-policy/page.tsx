@@ -3,16 +3,16 @@ import React from 'react'
 export default function Page() {
   return (
     <div className='container mt-5'>
-      <div className='mx-auto rounded-lg border border-kirofy-default/40 p-20 shadow-lg'>
+      <div className='mx-auto rounded-lg border border-k-default/40 p-20 shadow-lg'>
         <section className='mb-6'>
           <h2 className='text-cyan-300 mb-2 text-2xl font-semibold'>
-            Política de Privacidade da Kirofy
+            Política de Privacidade da k
           </h2>
           <p className='text-gray-400'>
             Última Modificação: 22 de Agosto de 2024
           </p>
           <p className='text-gray-400'>
-            Kirofy (“nós”, “nosso” ou “nos”) respeita a sua privacidade e está
+            k (“nós”, “nosso” ou “nos”) respeita a sua privacidade e está
             comprometida em proteger os dados pessoais que coletamos. Esta
             Política de Privacidade explica como coletamos, usamos, armazenamos,
             divulgamos e protegemos suas informações pessoais ao utilizar nossos
@@ -220,7 +220,7 @@ export default function Page() {
           </ul>
           <p className='text-gray-400'>
             Para exercer seus direitos, entre em contato conosco pelo e-mail
-            contato@kirofy.com.
+            contato@k.com.
           </p>
         </section>
 
@@ -258,7 +258,7 @@ export default function Page() {
             Privacidade, ou sobre como tratamos suas informações pessoais, entre
             em contato conosco:
           </p>
-          <p className='text-gray-400'>E-mail: contato@kirofy.com</p>
+          <p className='text-gray-400'>E-mail: contato@k.com</p>
         </section>
       </div>
     </div>

@@ -94,7 +94,7 @@ export default function Form() {
   return (
     <div className="mx-auto w-full p-4 lg:w-[30rem]">
       <LoadingModal show={isPending} />
-      <Header title="Seja bem vindo à Kirofy" />
+      <Header title="Seja bem vindo ao Dashboard" />
       <form
         className="mt-5"
         onSubmit={handleSubmit(async (data) => await mutateAsync(data))}

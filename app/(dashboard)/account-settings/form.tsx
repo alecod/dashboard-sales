@@ -25,7 +25,7 @@ const Form: React.FC<ProfileEditFormProps> = () => {
 
   return (
     <div className='flex w-full items-start gap-5'>
-      <nav className='mt-10 h-36 w-64 space-y-4 border-r border-kirofy-default/50'>
+      <nav className='mt-10 h-36 w-64 space-y-4 border-r border-k-default/50'>
         <div className='flex items-center space-x-2'>
           <button
             onClick={() => setChange('overview')}

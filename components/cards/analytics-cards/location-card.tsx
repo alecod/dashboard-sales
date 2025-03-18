@@ -203,7 +203,7 @@ export function LocationCard() {
               </div>
             </CardHeader>
             <CardContent className='flex'>
-              <div className='relative bottom-7 border-r border-kirofy-default/50 sm:w-[420px] md:w-[500px]'>
+              <div className='relative bottom-7 border-r border-k-default/50 sm:w-[420px] md:w-[500px]'>
                 <MapChartExample />
               </div>
 
@@ -230,7 +230,7 @@ export function LocationCard() {
                         </span>
                       </div>
 
-                      <span className='text-kirofy-primary ml-3 text-sm'>
+                      <span className='text-k-primary ml-3 text-sm'>
                         6000
                       </span>
                     </div>
@@ -240,7 +240,7 @@ export function LocationCard() {
                         <span className='text-sm font-bold'>Brasil</span>
                       </div>
 
-                      <span className='text-kirofy-primary ml-3 text-sm'>
+                      <span className='text-k-primary ml-3 text-sm'>
                         4000
                       </span>
                     </div>
@@ -250,7 +250,7 @@ export function LocationCard() {
                         <span className='text-sm font-bold'>China</span>
                       </div>
 
-                      <span className='text-kirofy-primary ml-3 text-sm'>
+                      <span className='text-k-primary ml-3 text-sm'>
                         4000
                       </span>
                     </div>
@@ -260,7 +260,7 @@ export function LocationCard() {
                         <span className='text-sm font-bold'>Russia</span>
                       </div>
 
-                      <span className='text-kirofy-primary ml-3 text-sm'>
+                      <span className='text-k-primary ml-3 text-sm'>
                         2000
                       </span>
                     </div>
@@ -271,7 +271,7 @@ export function LocationCard() {
                         <span className='text-sm font-bold'>Alemanha</span>
                       </div>
 
-                      <span className='text-kirofy-primary ml-3 text-sm'>
+                      <span className='text-k-primary ml-3 text-sm'>
                         2000
                       </span>
                     </div>
@@ -282,7 +282,7 @@ export function LocationCard() {
                         <span className='text-sm font-bold'>França</span>
                       </div>
 
-                      <span className='text-kirofy-primary ml-3 text-sm'>
+                      <span className='text-k-primary ml-3 text-sm'>
                         2000
                       </span>
                     </div>
@@ -292,7 +292,7 @@ export function LocationCard() {
                         <span className='text-sm font-bold'>Mexico</span>
                       </div>
 
-                      <span className='text-kirofy-primary ml-3 text-sm'>
+                      <span className='text-k-primary ml-3 text-sm'>
                         2000
                       </span>
                     </div>
@@ -306,7 +306,7 @@ export function LocationCard() {
                         <span className='text-sm font-bold'>São Paulo</span>
                       </div>
 
-                      <span className='text-kirofy-primary ml-3 text-sm'>
+                      <span className='text-k-primary ml-3 text-sm'>
                         6000
                       </span>
                     </div>
@@ -317,7 +317,7 @@ export function LocationCard() {
                         </span>
                       </div>
 
-                      <span className='text-kirofy-primary ml-3 text-sm'>
+                      <span className='text-k-primary ml-3 text-sm'>
                         4000
                       </span>
                     </div>
@@ -326,7 +326,7 @@ export function LocationCard() {
                         <span className='text-sm font-bold'>Paraná</span>
                       </div>
 
-                      <span className='text-kirofy-primary ml-3 text-sm'>
+                      <span className='text-k-primary ml-3 text-sm'>
                         4000
                       </span>
                     </div>
@@ -337,7 +337,7 @@ export function LocationCard() {
                         </span>
                       </div>
 
-                      <span className='text-kirofy-primary ml-3 text-sm'>
+                      <span className='text-k-primary ml-3 text-sm'>
                         2000
                       </span>
                     </div>
@@ -349,7 +349,7 @@ export function LocationCard() {
                         </span>
                       </div>
 
-                      <span className='text-kirofy-primary ml-3 text-sm'>
+                      <span className='text-k-primary ml-3 text-sm'>
                         2000
                       </span>
                     </div>
@@ -359,7 +359,7 @@ export function LocationCard() {
                         <span className='text-sm font-bold'>Minas Gerais</span>
                       </div>
 
-                      <span className='text-kirofy-primary ml-3 text-sm'>
+                      <span className='text-k-primary ml-3 text-sm'>
                         2000
                       </span>
                     </div>
@@ -368,7 +368,7 @@ export function LocationCard() {
                         <span className='text-sm font-bold'>Bahia</span>
                       </div>
 
-                      <span className='text-kirofy-primary ml-3 text-sm'>
+                      <span className='text-k-primary ml-3 text-sm'>
                         2000
                       </span>
                     </div>
@@ -382,7 +382,7 @@ export function LocationCard() {
                         <span className='text-sm font-bold'>Londrina</span>
                       </div>
 
-                      <span className='text-kirofy-primary ml-3 text-sm'>
+                      <span className='text-k-primary ml-3 text-sm'>
                         6000
                       </span>
                     </div>
@@ -391,7 +391,7 @@ export function LocationCard() {
                         <span className='text-sm font-bold'>Maringá</span>
                       </div>
 
-                      <span className='text-kirofy-primary ml-3 text-sm'>
+                      <span className='text-k-primary ml-3 text-sm'>
                         4000
                       </span>
                     </div>
@@ -400,7 +400,7 @@ export function LocationCard() {
                         <span className='text-sm font-bold'>Pinhais</span>
                       </div>
 
-                      <span className='text-kirofy-primary ml-3 text-sm'>
+                      <span className='text-k-primary ml-3 text-sm'>
                         4000
                       </span>
                     </div>
@@ -411,7 +411,7 @@ export function LocationCard() {
                         </span>
                       </div>
 
-                      <span className='text-kirofy-primary ml-3 text-sm'>
+                      <span className='text-k-primary ml-3 text-sm'>
                         2000
                       </span>
                     </div>
@@ -421,7 +421,7 @@ export function LocationCard() {
                         <span className='text-sm font-bold'>Curitiba</span>
                       </div>
 
-                      <span className='text-kirofy-primary ml-3 text-sm'>
+                      <span className='text-k-primary ml-3 text-sm'>
                         2000
                       </span>
                     </div>
@@ -431,7 +431,7 @@ export function LocationCard() {
                         <span className='text-sm font-bold'>Pato Branco</span>
                       </div>
 
-                      <span className='text-kirofy-primary ml-3 text-sm'>
+                      <span className='text-k-primary ml-3 text-sm'>
                         2000
                       </span>
                     </div>
@@ -440,7 +440,7 @@ export function LocationCard() {
                         <span className='text-sm font-bold'>Foz do Iguaçu</span>
                       </div>
 
-                      <span className='text-kirofy-primary ml-3 text-sm'>
+                      <span className='text-k-primary ml-3 text-sm'>
                         2000
                       </span>
                     </div>
@@ -485,7 +485,7 @@ export function LocationCard() {
               </div>
             </CardHeader>
             <CardContent className='flex'>
-              <div className='relative bottom-7 border-r border-kirofy-default/50 sm:w-[420px] md:w-[500px]'>
+              <div className='relative bottom-7 border-r border-k-default/50 sm:w-[420px] md:w-[500px]'>
                 <MapChartExample />
               </div>
 
@@ -512,7 +512,7 @@ export function LocationCard() {
                         </span>
                       </div>
 
-                      <span className='text-kirofy-primary ml-3 text-sm'>
+                      <span className='text-k-primary ml-3 text-sm'>
                         6000
                       </span>
                     </div>
@@ -522,7 +522,7 @@ export function LocationCard() {
                         <span className='text-sm font-bold'>Brasil</span>
                       </div>
 
-                      <span className='text-kirofy-primary ml-3 text-sm'>
+                      <span className='text-k-primary ml-3 text-sm'>
                         4000
                       </span>
                     </div>
@@ -532,7 +532,7 @@ export function LocationCard() {
                         <span className='text-sm font-bold'>China</span>
                       </div>
 
-                      <span className='text-kirofy-primary ml-3 text-sm'>
+                      <span className='text-k-primary ml-3 text-sm'>
                         4000
                       </span>
                     </div>
@@ -542,7 +542,7 @@ export function LocationCard() {
                         <span className='text-sm font-bold'>Russia</span>
                       </div>
 
-                      <span className='text-kirofy-primary ml-3 text-sm'>
+                      <span className='text-k-primary ml-3 text-sm'>
                         2000
                       </span>
                     </div>
@@ -553,7 +553,7 @@ export function LocationCard() {
                         <span className='text-sm font-bold'>Alemanha</span>
                       </div>
 
-                      <span className='text-kirofy-primary ml-3 text-sm'>
+                      <span className='text-k-primary ml-3 text-sm'>
                         2000
                       </span>
                     </div>
@@ -564,7 +564,7 @@ export function LocationCard() {
                         <span className='text-sm font-bold'>França</span>
                       </div>
 
-                      <span className='text-kirofy-primary ml-3 text-sm'>
+                      <span className='text-k-primary ml-3 text-sm'>
                         2000
                       </span>
                     </div>
@@ -574,7 +574,7 @@ export function LocationCard() {
                         <span className='text-sm font-bold'>Mexico</span>
                       </div>
 
-                      <span className='text-kirofy-primary ml-3 text-sm'>
+                      <span className='text-k-primary ml-3 text-sm'>
                         2000
                       </span>
                     </div>
@@ -588,7 +588,7 @@ export function LocationCard() {
                         <span className='text-sm font-bold'>São Paulo</span>
                       </div>
 
-                      <span className='text-kirofy-primary ml-3 text-sm'>
+                      <span className='text-k-primary ml-3 text-sm'>
                         6000
                       </span>
                     </div>
@@ -599,7 +599,7 @@ export function LocationCard() {
                         </span>
                       </div>
 
-                      <span className='text-kirofy-primary ml-3 text-sm'>
+                      <span className='text-k-primary ml-3 text-sm'>
                         4000
                       </span>
                     </div>
@@ -608,7 +608,7 @@ export function LocationCard() {
                         <span className='text-sm font-bold'>Paraná</span>
                       </div>
 
-                      <span className='text-kirofy-primary ml-3 text-sm'>
+                      <span className='text-k-primary ml-3 text-sm'>
                         4000
                       </span>
                     </div>
@@ -619,7 +619,7 @@ export function LocationCard() {
                         </span>
                       </div>
 
-                      <span className='text-kirofy-primary ml-3 text-sm'>
+                      <span className='text-k-primary ml-3 text-sm'>
                         2000
                       </span>
                     </div>
@@ -631,7 +631,7 @@ export function LocationCard() {
                         </span>
                       </div>
 
-                      <span className='text-kirofy-primary ml-3 text-sm'>
+                      <span className='text-k-primary ml-3 text-sm'>
                         2000
                       </span>
                     </div>
@@ -641,7 +641,7 @@ export function LocationCard() {
                         <span className='text-sm font-bold'>Minas Gerais</span>
                       </div>
 
-                      <span className='text-kirofy-primary ml-3 text-sm'>
+                      <span className='text-k-primary ml-3 text-sm'>
                         2000
                       </span>
                     </div>
@@ -650,7 +650,7 @@ export function LocationCard() {
                         <span className='text-sm font-bold'>Bahia</span>
                       </div>
 
-                      <span className='text-kirofy-primary ml-3 text-sm'>
+                      <span className='text-k-primary ml-3 text-sm'>
                         2000
                       </span>
                     </div>
@@ -664,7 +664,7 @@ export function LocationCard() {
                         <span className='text-sm font-bold'>Londrina</span>
                       </div>
 
-                      <span className='text-kirofy-primary ml-3 text-sm'>
+                      <span className='text-k-primary ml-3 text-sm'>
                         6000
                       </span>
                     </div>
@@ -673,7 +673,7 @@ export function LocationCard() {
                         <span className='text-sm font-bold'>Maringá</span>
                       </div>
 
-                      <span className='text-kirofy-primary ml-3 text-sm'>
+                      <span className='text-k-primary ml-3 text-sm'>
                         4000
                       </span>
                     </div>
@@ -682,7 +682,7 @@ export function LocationCard() {
                         <span className='text-sm font-bold'>Pinhais</span>
                       </div>
 
-                      <span className='text-kirofy-primary ml-3 text-sm'>
+                      <span className='text-k-primary ml-3 text-sm'>
                         4000
                       </span>
                     </div>
@@ -693,7 +693,7 @@ export function LocationCard() {
                         </span>
                       </div>
 
-                      <span className='text-kirofy-primary ml-3 text-sm'>
+                      <span className='text-k-primary ml-3 text-sm'>
                         2000
                       </span>
                     </div>
@@ -703,7 +703,7 @@ export function LocationCard() {
                         <span className='text-sm font-bold'>Curitiba</span>
                       </div>
 
-                      <span className='text-kirofy-primary ml-3 text-sm'>
+                      <span className='text-k-primary ml-3 text-sm'>
                         2000
                       </span>
                     </div>
@@ -713,7 +713,7 @@ export function LocationCard() {
                         <span className='text-sm font-bold'>Pato Branco</span>
                       </div>
 
-                      <span className='text-kirofy-primary ml-3 text-sm'>
+                      <span className='text-k-primary ml-3 text-sm'>
                         2000
                       </span>
                     </div>
@@ -722,7 +722,7 @@ export function LocationCard() {
                         <span className='text-sm font-bold'>Foz do Iguaçu</span>
                       </div>
 
-                      <span className='text-kirofy-primary ml-3 text-sm'>
+                      <span className='text-k-primary ml-3 text-sm'>
                         2000
                       </span>
                     </div>
@@ -774,7 +774,7 @@ export function LocationCard() {
             </div>
           </CardHeader>
           <CardContent className='flex'>
-            <div className='relative bottom-7 border-r border-kirofy-default/50 sm:w-[420px] md:w-[500px]'>
+            <div className='relative bottom-7 border-r border-k-default/50 sm:w-[420px] md:w-[500px]'>
               <MapChartEmpity />
             </div>
 
@@ -863,7 +863,7 @@ export function LocationCard() {
             </div>
           </CardHeader>
           <CardContent className='flex'>
-            <div className='relative bottom-7 border-r border-kirofy-default/50 sm:w-[420px] md:w-[500px]'>
+            <div className='relative bottom-7 border-r border-k-default/50 sm:w-[420px] md:w-[500px]'>
               {
                 // @ts-ignore
                 <MapChart results={data?.results} />
@@ -896,7 +896,7 @@ export function LocationCard() {
                             </span>
                           </div>
 
-                          <span className='text-kirofy-primary ml-3 text-sm'>
+                          <span className='text-k-primary ml-3 text-sm'>
                             {data.visitors}
                           </span>
                         </div>
@@ -920,7 +920,7 @@ export function LocationCard() {
                                 </span>
                               </div>
 
-                              <span className='text-kirofy-primary ml-3 text-sm'>
+                              <span className='text-k-primary ml-3 text-sm'>
                                 {data.visitors}
                               </span>
                             </div>
@@ -952,7 +952,7 @@ export function LocationCard() {
                                 </span>
                               </div>
 
-                              <span className='text-kirofy-primary ml-3 text-sm'>
+                              <span className='text-k-primary ml-3 text-sm'>
                                 {data.visitors}
                               </span>
                             </div>
