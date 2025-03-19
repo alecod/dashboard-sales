@@ -1,7 +1,5 @@
 "use client";
 import { Skeleton } from "@/components/ui/skeleton";
-import { useDashboardHook } from "@/hooks/dashboard-hook";
-import { useEcommerceIntegrationHook } from "@/hooks/ecommerce-integration-hook";
 import { Card, CardContent } from "../../ui/card";
 
 export function TicketMediumCard({
@@ -11,14 +9,12 @@ export function TicketMediumCard({
   isError: boolean;
   isLoading: boolean;
 }) {
-  const { shopifyDashboardData, isLoadingShopifyDashboardData, totalRevenue } =
-    useDashboardHook();
-  const { ecommerceIntegration } = useEcommerceIntegrationHook();
+  // Dados estáticos simulados
+  const totalRevenue = 150000;  // Exemplo de valor de receita total
+  const totalOrders = 300;      // Exemplo de número total de pedidos
 
   // Cálculo do ticket médio
-  const ticketMedium = shopifyDashboardData?.total_orders
-    ? totalRevenue / shopifyDashboardData?.total_orders
-    : 0;
+  const ticketMedium = totalOrders ? totalRevenue / totalOrders : 0;
 
   // Função para formatar o valor como moeda brasileira
   const formatCurrency = (value: number) => {
@@ -30,7 +26,7 @@ export function TicketMediumCard({
 
   return (
     <>
-      {!ecommerceIntegration || isLoading ? (
+      {isLoading ? (
         <Card className="flex w-60 lg:w-full select-none items-center justify-center blur-sm">
           <CardContent className="flex h-40 items-center justify-center lg:h-20">
             <span className="relative top-[0.75rem] flex flex-col items-center text-center">
@@ -39,7 +35,7 @@ export function TicketMediumCard({
           </CardContent>
         </Card>
       ) : isError ? (
-        <Card className="flex  w-60 lg:w-full items-center justify-center">
+        <Card className="flex w-60 lg:w-full items-center justify-center">
           <CardContent className="flex h-40 items-center justify-center lg:h-20">
             <span className="relative top-[0.75rem] flex flex-col items-center text-center">
               Ticket Médio: <span className="font-bold">{"N/A"}</span>
@@ -48,7 +44,8 @@ export function TicketMediumCard({
         </Card>
       ) : (
         <>
-          {isLoadingShopifyDashboardData ? (
+          {/* Simulação de carregamento */}
+          {isLoading ? (
             <Card className="flex h-20 w-60 lg:w-full items-center justify-center">
               <Skeleton className="h-8 w-8" />
               <Skeleton className="h-8 w-24" />

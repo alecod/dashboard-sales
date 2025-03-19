@@ -1,5 +1,4 @@
 'use client'
-import { Skeleton } from '@/components/ui/skeleton'
 import { SwitchCards } from '@/components/ui/switch-cards'
 import { ExclamationTriangleIcon, LockClosedIcon } from '@radix-ui/react-icons'
 import { ShoppingCart, TrendingUpIcon } from 'lucide-react'
@@ -8,6 +7,7 @@ import { Bar, BarChart, ResponsiveContainer } from 'recharts'
 import { Card, CardContent, CardFooter, CardHeader } from '../../ui/card'
 
 export function TotalRevenueCard() {
+  // Dados estáticos para simulação
   const stat = {
     chart: [
       { name: 'Janeiro', sale: 30 },
@@ -21,13 +21,12 @@ export function TotalRevenueCard() {
     fill: '#19dbfe',
   }
 
+  // Valores fixos
   const totalRevenue = 50000;
   const totalPaidOrders = 30000;
   const totalPendingOrders = 10000;
   const totalCancelledOrders = 5000;
   const totalRefundedOrders = 5000;
-
-
 
   return (
     <Card className='flex h-96 w-80 flex-col md:h-auto md:w-[360px] lg:w-full lg:min-w-80'>
